@@ -4,6 +4,12 @@ Accept: application/json
 
 ###
 
+# get all students with limied fieds
+GET localhost:3000/api/v1/students?fields=address
+Accept: application/json
+
+##
+
 # get student by id
 GET localhost:3000/api/v1/students/636a0acd8b8717f00972776d
 Accept: application/json
