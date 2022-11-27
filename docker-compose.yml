@@ -15,7 +15,7 @@ services:
     networks:
       - json_network
   app:
-    image: tyskerdocker/jsonserver:v2
+    image: tyskerdocker/jsonserver:v1
     container_name: server
     restart: unless-stopped
     ports:

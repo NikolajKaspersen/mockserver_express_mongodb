@@ -17,21 +17,21 @@ Accept: application/json
 ###
 
 # post new student
-POST localhost:3000/api/v1/students
+POST https://www.joergoertel.dk/api/students
 content-type: application/json
 
 {
-  "student": "George Clooney",
+  "student": "Abraham Licton",
   "birthday": "1966-06-25",
-  "mobil": 123458547,
+  "mobil": 85858585,
   "address": {
-    "street": "Hollywood Boulevard 15",
-    "city": "Los Angeles",
-    "zipCode": "698741"
+    "street": "Washington Street 35",
+    "city": "Washington",
+    "zipCode": "00000"
   },
   "subjects": [
     {
-      "subject": "acting",
+      "subject": "politics",
       "startDate": "1995-09-01",
       "endDate": "1995-06-30"
     },
