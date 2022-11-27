@@ -1,0 +1,142 @@
+POST https://www.joergoertel.dk/api/students
+content-type: application/json
+
+{
+  "student": "Abraham Licton",
+  "birthday": "1966-06-25",
+  "mobil": 85858585,
+  "address": {
+    "street": "Washington Street 35",
+    "city": "Washington",
+    "zipCode": "00000"
+  },
+  "subjects": [
+    {
+      "subject": "politics",
+      "startDate": "1995-09-01",
+      "endDate": "1995-06-30"
+    },
+    {
+      "subject": "linguistic",
+      "startDate": "1995-09-01",
+      "endDate": "1997-06-22"
+    }
+  ]
+}
+
+<> 2022-11-15T144523.201.json
+
+###
+
+POST https://www.joergoertel.dk/api/students
+content-type: application/json
+
+{
+  "student": "George Clooney",
+  "birthday": "1966-06-25",
+  "mobil": 123458547,
+  "address": {
+    "street": "Hollywood Boulevard 15",
+    "city": "Los Angeles",
+    "zipCode": "698741"
+  },
+  "subjects": [
+    {
+      "subject": "acting",
+      "startDate": "1995-09-01",
+      "endDate": "1995-06-30"
+    },
+    {
+      "subject": "linguistic",
+      "startDate": "1995-09-01",
+      "endDate": "1997-06-22"
+    }
+  ]
+}
+
+<> 2022-11-15T144341.201.json
+
+###
+
+GET http://localhost:3000/api/v1/tours?fields=duration,difficulty,price,ratingsAverage
+Accept: application/json
+
+<> 2022-11-12T080144.200.json
+
+###
+
+GET http://localhost:3000/api/v1/tours/top-5-cheap
+Accept: application/json
+
+<> 2022-11-12T080023.200.json
+
+###
+
+GET http://localhost:3000/api/v1/students?fields=address
+Accept: application/json
+
+GET localhost:3000/api/v1/students/636a0acd8b8717f00972776d
+Accept: application/json
+
+<> 2022-11-12T080007.200.json
+
+###
+
+GET http://localhost:3000/api/v1/students/636a0acd8b8717f00972776d
+Accept: application/json
+
+<> 2022-11-12T075910.200.json
+
+###
+
+POST http://localhost:3000/api/v1/students
+content-type: application/json
+
+{
+  "student": "George Clooney",
+  "birthday": "1966-06-25",
+  "mobil": 123458547,
+  "address": {
+    "street": "Hollywood Boulevard 15",
+    "city": "Los Angeles",
+    "zipCode": "698741"
+  },
+  "subjects": [
+    {
+      "subject": "acting",
+      "startDate": "1995-09-01",
+      "endDate": "1995-06-30"
+    },
+    {
+      "subject": "linguistic",
+      "startDate": "1995-09-01",
+      "endDate": "1997-06-22"
+    }
+  ]
+}
+
+<> 2022-11-12T075908.201.json
+
+###
+
+GET http://localhost:3000/api/v1/students
+Accept: application/json
+
+<> 2022-11-12T075855.200.json
+
+###
+
+GET http://localhost:3000/api/v1/students
+Accept: application/json
+
+<> 2022-11-12T075434.200.json
+
+###
+
+GET http://localhost:3000/api/v1/students
+Accept: application/json
+
+<> 2022-11-12T073905.200.json
+
+###
+

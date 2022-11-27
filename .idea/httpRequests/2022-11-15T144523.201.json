@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "data": {
+    "student": {
+      "student": "Abraham Licton",
+      "birthday": "1966-06-25T00:00:00.000Z",
+      "mobil": 85858585,
+      "address": {
+        "street": "Washington Street 35",
+        "city": "Washington",
+        "zipCode": "00000"
+      },
+      "subjects": [
+        {
+          "subject": "politics",
+          "startDate": "1995-09-01T00:00:00.000Z",
+          "endDate": "1995-06-30T00:00:00.000Z",
+          "_id": "637397f362e1b608714f9d5a"
+        },
+        {
+          "subject": "linguistic",
+          "startDate": "1995-09-01T00:00:00.000Z",
+          "endDate": "1997-06-22T00:00:00.000Z",
+          "_id": "637397f362e1b608714f9d5b"
+        }
+      ],
+      "createdAt": "2022-11-15T13:40:02.477Z",
+      "_id": "637397f362e1b608714f9d59",
+      "__v": 0,
+      "id": "637397f362e1b608714f9d59"
+    }
+  }
+}

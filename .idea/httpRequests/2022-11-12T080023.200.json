@@ -1,0 +1,53 @@
+{
+  "status": "success",
+  "results": 5,
+  "data": {
+    "tours": [
+      {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "name": "The Forest Hiker",
+        "difficulty": "easy",
+        "ratingsAverage": 5,
+        "price": 397,
+        "summary": "Breathtaking hike through the Canadian Banff National Park",
+        "id": "5c88fa8cf4afda39709c2959"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2955",
+        "name": "The Sea Explorer",
+        "difficulty": "medium",
+        "ratingsAverage": 4.8,
+        "price": 497,
+        "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
+        "id": "5c88fa8cf4afda39709c2955"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2970",
+        "name": "The Star Gazer",
+        "difficulty": "medium",
+        "ratingsAverage": 4.8,
+        "price": 2997,
+        "summary": "The most remote and stunningly beautiful places for seeing the night sky",
+        "id": "5c88fa8cf4afda39709c2970"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2974",
+        "name": "The Northern Lights",
+        "difficulty": "easy",
+        "ratingsAverage": 4.7,
+        "price": 1497,
+        "summary": "Enjoy the Northern Lights in one of the best places in the world",
+        "id": "5c88fa8cf4afda39709c2974"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2961",
+        "name": "The Park Camper",
+        "difficulty": "medium",
+        "ratingsAverage": 4.7,
+        "price": 1497,
+        "summary": "Breathing in Nature in America's most spectacular National Parks",
+        "id": "5c88fa8cf4afda39709c2961"
+      }
+    ]
+  }
+}

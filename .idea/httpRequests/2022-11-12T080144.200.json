@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "results": 9,
+  "data": {
+    "tours": [
+      {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "duration": 5,
+        "difficulty": "easy",
+        "ratingsAverage": 5,
+        "price": 397,
+        "id": "5c88fa8cf4afda39709c2959"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295a",
+        "duration": 4,
+        "difficulty": "difficult",
+        "ratingsAverage": 4.5,
+        "price": 997,
+        "id": "5c88fa8cf4afda39709c295a"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2961",
+        "duration": 10,
+        "difficulty": "medium",
+        "ratingsAverage": 4.7,
+        "price": 1497,
+        "id": "5c88fa8cf4afda39709c2961"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295d",
+        "duration": 9,
+        "difficulty": "easy",
+        "ratingsAverage": 4.6,
+        "price": 1197,
+        "id": "5c88fa8cf4afda39709c295d"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2966",
+        "duration": 14,
+        "difficulty": "difficult",
+        "ratingsAverage": 3.9,
+        "price": 2997,
+        "id": "5c88fa8cf4afda39709c2966"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2974",
+        "duration": 3,
+        "difficulty": "easy",
+        "ratingsAverage": 4.7,
+        "price": 1497,
+        "id": "5c88fa8cf4afda39709c2974"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296c",
+        "duration": 5,
+        "difficulty": "easy",
+        "ratingsAverage": 4.4,
+        "price": 1997,
+        "id": "5c88fa8cf4afda39709c296c"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2955",
+        "duration": 7,
+        "difficulty": "medium",
+        "ratingsAverage": 4.8,
+        "price": 497,
+        "id": "5c88fa8cf4afda39709c2955"
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2970",
+        "duration": 9,
+        "difficulty": "medium",
+        "ratingsAverage": 4.8,
+        "price": 2997,
+        "id": "5c88fa8cf4afda39709c2970"
+      }
+    ]
+  }
+}

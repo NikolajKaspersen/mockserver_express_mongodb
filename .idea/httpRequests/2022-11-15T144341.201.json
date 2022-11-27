@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "data": {
+    "student": {
+      "student": "George Clooney",
+      "birthday": "1966-06-25T00:00:00.000Z",
+      "mobil": 123458547,
+      "address": {
+        "street": "Hollywood Boulevard 15",
+        "city": "Los Angeles",
+        "zipCode": "698741"
+      },
+      "subjects": [
+        {
+          "subject": "acting",
+          "startDate": "1995-09-01T00:00:00.000Z",
+          "endDate": "1995-06-30T00:00:00.000Z",
+          "_id": "6373978d1a4eb5d8311d4fb1"
+        },
+        {
+          "subject": "linguistic",
+          "startDate": "1995-09-01T00:00:00.000Z",
+          "endDate": "1997-06-22T00:00:00.000Z",
+          "_id": "6373978d1a4eb5d8311d4fb2"
+        }
+      ],
+      "createdAt": "2022-11-15T13:40:02.917Z",
+      "_id": "6373978d1a4eb5d8311d4fb0",
+      "__v": 0,
+      "id": "6373978d1a4eb5d8311d4fb0"
+    }
+  }
+}

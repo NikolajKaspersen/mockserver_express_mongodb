@@ -1,0 +1,53 @@
+{
+  "status": "success",
+  "results": 5,
+  "data": {
+    "students": [
+      {
+        "address": {
+          "street": "Hollywood Boulevard 15",
+          "city": "Los Angeles",
+          "zipCode": "698741"
+        },
+        "_id": "636f443cb9ac7f8a29dd584e",
+        "id": "636f443cb9ac7f8a29dd584e"
+      },
+      {
+        "address": {
+          "street": "Kongevejen 6",
+          "city": "Copenhagen",
+          "zipCode": "1166"
+        },
+        "_id": "636f3da4b0555d38c89cc084",
+        "id": "636f3da4b0555d38c89cc084"
+      },
+      {
+        "address": {
+          "street": "Hammershus 25b",
+          "city": "Rønne",
+          "zipCode": "5555"
+        },
+        "_id": "636f3da4b0555d38c89cc087",
+        "id": "636f3da4b0555d38c89cc087"
+      },
+      {
+        "address": {
+          "street": "Strøget 85c",
+          "city": "Copenhagen",
+          "zipCode": "2200"
+        },
+        "_id": "636f3da4b0555d38c89cc08a",
+        "id": "636f3da4b0555d38c89cc08a"
+      },
+      {
+        "address": {
+          "street": "Queens-road 85",
+          "city": "Birmingham",
+          "zipCode": "5555"
+        },
+        "_id": "636f3da4b0555d38c89cc08d",
+        "id": "636f3da4b0555d38c89cc08d"
+      }
+    ]
+  }
+}
