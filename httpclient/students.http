@@ -4,13 +4,13 @@ Accept: application/json
 
 ###
 # get all stuendts group by education and year
-GET localhost:3000/api/v1/students/students-stats/2022
+GET localhost:3000/api/v1/students/students-stats/2021
 Accept: application/json
 
 ###
 
 # get student by id
-GET localhost:3000/api/v1/students/636a0acd8b8717f00972776d
+GET localhost:3000/api/v1/students/63832bec8c73087e700e6aba
 Accept: application/json
 
 ###
