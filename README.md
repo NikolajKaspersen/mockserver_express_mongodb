@@ -13,3 +13,12 @@
 
 
 OBS. studentAge is not part of the object that is posted into mongodb. That just means, if you want to post a new student, do it without studentAge!
+
+
+For API documentation got to 
+
+```JS
+
+http://localhost:3000/api-docs/
+
+```
