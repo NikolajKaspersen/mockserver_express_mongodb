@@ -4,9 +4,9 @@ read -p "Import data (yes/no)" data
 
 echo $data
 
-if [[ "$data" = "y" ||  "$data" = "yes" ]]; 
+if [[ "$data" = "y" ||  "$data" = "yes" ]];
 then
-	docker container exec server node data/import-dev-data.js --import
+	docker container exec server node data/importDevData.js --import
 else
-	docker container exec server node data/import-dev-data.js --delete
+	docker container exec server node data/importDevData.js --delete
 fi
