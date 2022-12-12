@@ -34,7 +34,7 @@
 }
 
 ```
-OBS. studentAge is a property that gets calculated with help og the birthday property. 
+OBS. studentAge is a property gets calculated with help og the birthday property. 
 The studentAge is only available in the get request and is not a part of the post body request !!!
 
 
