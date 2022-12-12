@@ -11,8 +11,31 @@
     - bash (2) = ``` docker container logs --follow mongoDB ```
  6. now try to run the students.http scripts
 
+```JS
+  {
+    "student": {
+        "name": "string",
+            "birthday": "2022-12-12",
+            "email": "user@example.com",
+            "mobil": 0,
+            "gender": "male",
+            "address": {
+            "street": "string",
+                "city": "string",
+                "zipCode": "string"
+        }
+    },
+    "education": {
+        "name": "multimedia",
+            "startDate": "2022-08-01",
+            "endDate": "2024-06-31"
+    },
+    "studentAge": "27"
+}
 
-OBS. studentAge is not part of the object that is posted into mongodb. That just means, if you want to post a new student, do it without studentAge!
+```
+OBS. studentAge is a property that gets calculated with help og the birthday property. 
+The studentAge is only available in the get request and is not a part of the post body request !!!
 
 
 ### For API documentation go to 
