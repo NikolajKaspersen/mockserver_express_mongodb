@@ -1,4 +1,4 @@
-## JSON SERVER & MONGO DB
+## Node Express MockerServer & MONGO DB
 
  1. docker-compose up -d
  2. add execute permission on bash script file
@@ -7,18 +7,22 @@
     - ./jsondata.sh (the first time you run the script you answer with "yes")
  4. open the httpclient folder either in VS-code or in Intellij
  5. open two bash terminals
-    - bash (1) = docker container logs --follow server
-    - bash (2) = docker container logs --follow mongoDB
+    - bash (1) = ``` docker container logs --follow server ``` 
+    - bash (2) = ``` docker container logs --follow mongoDB ```
  6. now try to run the students.http scripts
 
 
 OBS. studentAge is not part of the object that is posted into mongodb. That just means, if you want to post a new student, do it without studentAge!
 
 
-For API documentation got to 
+### For API documentation go to 
 
+Students:
 ```JS
+https://app.swaggerhub.com/apis-docs/tysker/student/1.0.0
+```
 
-http://localhost:3000/api-docs/
-
+User:
+```JS
+coming soon ...
 ```
